@@ -1,9 +1,7 @@
 {
+  "extends": "./tsconfig.json",
   "compilerOptions": {
-    "skipLibCheck": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "declaration": false
+    "outDir": "./dist"
   },
   "include": ["src"]
 }
