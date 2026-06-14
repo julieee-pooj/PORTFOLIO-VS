@@ -12,7 +12,9 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
     "resolveJsonModule": true,
-    "moduleResolution": "bundler"
+    "moduleResolution": "bundler",
+    "declaration": false,
+    "emitDeclarationOnly": false
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.app.json" }]
